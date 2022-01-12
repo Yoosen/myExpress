@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/expInfo/expInfo",
+    "pages/me/me",
+    "pages/logs/logs"
+  ],
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/expInfo/expInfo",
+      "text": "快递信息",
+      "iconPath": "/images/expinfo.png",
+      "selectedIconPath": "/images/expinfo-active.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "/images/me.png",
+      "selectedIconPath": "/images/me-active.png"
+    }
+  ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2ed573",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

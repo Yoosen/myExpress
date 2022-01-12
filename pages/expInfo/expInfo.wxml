@@ -1,0 +1,6 @@
+<!--pages/expInfo/expInfo.wxml-->
+<swiper indicator-dots circular autoplay>
+    <swiper-item wx:for="{{swiperList}}" wx:key="id">
+        <image src="{{item.img_1024_768}}"></image>
+    </swiper-item>
+</swiper>
